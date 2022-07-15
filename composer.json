@@ -1,10 +1,17 @@
 {
     "name": "moneymaxim/trustpilot-invitation-api",
     "description": "A PHP library for accessing the Trustpilot Invitation API",
+    "repositories":
+    [
+        {
+            "type": "vcs",
+            "url": "http://github.com/proggeler/TrustpilotAuthenticator"
+        }
+    ],
     "require": {
         "php": ">=5.5.0",
-        "guzzlehttp/guzzle": "~6.0",
-        "moneymaxim/trustpilot-authenticator": "^0.1.1"
+        "guzzlehttp/guzzle": "^7.0",
+        "moneymaxim/trustpilot-authenticator": "dev-guzzle-update as 2.0.0"
     },
     "license": "MIT",
     "authors": [
